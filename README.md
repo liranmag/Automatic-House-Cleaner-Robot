@@ -1,9 +1,10 @@
 # Automatic-House-Cleaner-Robot
-##An indoor air quality robot with dust and distance sensors that operate automatically until the house is clean.
+An indoor air quality robot with dust and distance sensors that operate automatically until the house is clean.
 
-###Code schema:
+#Code schema:
 ![The software_page-0001](https://user-images.githubusercontent.com/87942064/147410778-609fa234-6577-4c8f-9354-80ccdef915dc.jpg)
 
+#Sensors:
 Distance sensor - HC-SR04 schema to MKR:
 ![distance_schema_fOo0miuSvq_1280x905](https://user-images.githubusercontent.com/87942064/147411320-12d37294-c951-496b-af34-3adfb5424bec.jpeg)
 
@@ -20,6 +21,8 @@ DC Motors and L298N schema to MKR and power source:
 
 ![photo1628164485_KsRQ12pU0s](https://user-images.githubusercontent.com/87942064/147409032-2d287bf0-02e7-4bd2-b667-b232c732c7cf.jpeg)
 
+#Sketchs:
+
 Dust container sketch:
 
 ![fan_bay_(1)_(2)_jx5y4Jm69c (4)_page-0001](https://user-images.githubusercontent.com/87942064/147409033-bffbe630-53a2-4947-9274-a84fbe965063.jpg)
@@ -27,14 +30,14 @@ Dust container sketch:
 
 
 
-robot shell's sketch: 
+Robot shell's sketch: 
 
 ![fan_bay_(1)_(2)_jx5y4Jm69c (4)_page-0004](https://user-images.githubusercontent.com/87942064/147409029-fa12563b-0cd4-4ef1-b0fe-e0653de86a23.jpg)
 ![fan_bay_(1)_(2)_jx5y4Jm69c (4)_page-0003](https://user-images.githubusercontent.com/87942064/147409036-5780bcf7-d408-4d9c-9b07-65aabb4d8f9b.jpg)
 
 
 
-final sketch:
+Final sketch:
 
 ![fan_bay_(1)_(2)_jx5y4Jm69c (4)_page-0005](https://user-images.githubusercontent.com/87942064/147409030-3909182a-8782-4dad-852f-a7b2e8c3cb7b.jpg)
 ![WhatsApp Image 2021-08-04 at 15 50 27_1256x905](https://user-images.githubusercontent.com/87942064/147411359-21a8fc15-a773-4178-9721-4674ff10d78c.jpeg)
