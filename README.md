@@ -1,7 +1,5 @@
 # Automatic-House-Cleaner-Robot
 An indoor air quality robot with dust and distance sensors that operate automatically until the house is clean.
-"https://www.youtube.com/embed/yRZtCFyTqIs"
-
 
 
 ![distance_schema_fOo0miuSvq](https://user-images.githubusercontent.com/87942064/147409024-c945e653-7dbe-44a4-8d47-6f03af556c20.jpeg)
