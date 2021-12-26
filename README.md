@@ -5,11 +5,11 @@ Code schema:
 ![The software_page-0001](https://user-images.githubusercontent.com/87942064/147410778-609fa234-6577-4c8f-9354-80ccdef915dc.jpg)
 
 Distance sensor - HC-SR04 schema to MKR:
-![distance_schema_fOo0miuSvq](https://user-images.githubusercontent.com/87942064/147409024-c945e653-7dbe-44a4-8d47-6f03af556c20.jpeg)
+![distance_schema_fOo0miuSvq_1280x905](https://user-images.githubusercontent.com/87942064/147411320-12d37294-c951-496b-af34-3adfb5424bec.jpeg)
 
 
 Dust sensor PPD42NS schema to MKR and power source:
-![dust_sensor_ppd42ns_schema_to_mkr_and_power_source_3rAoNm35R0](https://user-images.githubusercontent.com/87942064/147409027-bbae13eb-7650-4e76-b1e9-616b2a77e5ce.jpg)
+![dust_sensor_ppd42ns_schema_to_mkr_and_power_source_3rAoNm35R0_920x905](https://user-images.githubusercontent.com/87942064/147411328-26e126e9-224e-495e-9fdc-95f8b8d08dc5.jpeg)
 
 
 Fan schema to Relay and to power source:
@@ -29,12 +29,8 @@ robot shell's Drawing:
 
 sketch:
 ![fan_bay_(1)_(2)_jx5y4Jm69c (4)_page-0003](https://user-images.githubusercontent.com/87942064/147409036-5780bcf7-d408-4d9c-9b07-65aabb4d8f9b.jpg)
+![WhatsApp Image 2021-08-04 at 15 50 27_1256x905](https://user-images.githubusercontent.com/87942064/147411359-21a8fc15-a773-4178-9721-4674ff10d78c.jpeg)
+![WhatsApp Image 2021-08-04 at 15 49 34_1267x905](https://user-images.githubusercontent.com/87942064/147411362-73f9fd0f-7308-408c-b5cf-67bc6b19bfe3.jpeg)
 
 
 
-![fan_bay_(1)_(2)_jx5y4Jm69c (4)_page-0003_2482x1755 (3)](https://user-images.githubusercontent.com/87942064/147410883-b4f35643-b060-4c64-9e8c-93b6a8a94f7f.jpeg)
-![fan_bay_(1)_(2)_jx5y4Jm69c (4)_page-0004_2482x1755 (3)](https://user-images.githubusercontent.com/87942064/147410886-30e89d07-01ea-45eb-9f30-d0472f95a0ab.jpeg)
-![fan_bay_(1)_(2)_jx5y4Jm69c (4)_page-0005_2482x1755 (3)](https://user-images.githubusercontent.com/87942064/147410887-092b43bf-e5e1-4d27-9289-fb08563efa7b.jpeg)
-![photo1628108023_uykBVrqmbQ_1280x748 (3)](https://user-images.githubusercontent.com/87942064/147410890-ba5dbd9f-ae86-4c1a-b1ce-7255b3591ad6.jpeg)
-![fan_bay_(1)_(2)_jx5y4Jm69c (4)_page-0001_2482x1755 (3)](https://user-images.githubusercontent.com/87942064/147410891-7fa0a344-39b2-4d12-a017-44dd53959ace.jpeg)
-![fan_bay_(1)_(2)_jx5y4Jm69c (4)_page-0002_2482x1755 (3)](https://user-images.githubusercontent.com/87942064/147410892-1c213e6a-9a9c-497d-a651-526f05694976.jpeg)
