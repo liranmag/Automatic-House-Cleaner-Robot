@@ -1,7 +1,7 @@
 # Automatic-House-Cleaner-Robot
 An indoor air quality robot with dust and distance sensors that operate automatically until the house is clean.
 
-
+Distance sensor - HC-SR04 schema to MKR:
 ![distance_schema_fOo0miuSvq](https://user-images.githubusercontent.com/87942064/147409024-c945e653-7dbe-44a4-8d47-6f03af556c20.jpeg)
 ![dust_sensor_ppd42ns_schema_to_mkr_and_power_source_3rAoNm35R0](https://user-images.githubusercontent.com/87942064/147409027-bbae13eb-7650-4e76-b1e9-616b2a77e5ce.jpg)
 ![fan_bay_(1)_(2)_jx5y4Jm69c (4)_page-0004](https://user-images.githubusercontent.com/87942064/147409029-fa12563b-0cd4-4ef1-b0fe-e0653de86a23.jpg)
