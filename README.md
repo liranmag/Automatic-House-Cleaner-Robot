@@ -29,3 +29,12 @@ robot shell's Drawing:
 
 sketch:
 ![fan_bay_(1)_(2)_jx5y4Jm69c (4)_page-0003](https://user-images.githubusercontent.com/87942064/147409036-5780bcf7-d408-4d9c-9b07-65aabb4d8f9b.jpg)
+
+
+
+![fan_bay_(1)_(2)_jx5y4Jm69c (4)_page-0003_2482x1755 (3)](https://user-images.githubusercontent.com/87942064/147410883-b4f35643-b060-4c64-9e8c-93b6a8a94f7f.jpeg)
+![fan_bay_(1)_(2)_jx5y4Jm69c (4)_page-0004_2482x1755 (3)](https://user-images.githubusercontent.com/87942064/147410886-30e89d07-01ea-45eb-9f30-d0472f95a0ab.jpeg)
+![fan_bay_(1)_(2)_jx5y4Jm69c (4)_page-0005_2482x1755 (3)](https://user-images.githubusercontent.com/87942064/147410887-092b43bf-e5e1-4d27-9289-fb08563efa7b.jpeg)
+![photo1628108023_uykBVrqmbQ_1280x748 (3)](https://user-images.githubusercontent.com/87942064/147410890-ba5dbd9f-ae86-4c1a-b1ce-7255b3591ad6.jpeg)
+![fan_bay_(1)_(2)_jx5y4Jm69c (4)_page-0001_2482x1755 (3)](https://user-images.githubusercontent.com/87942064/147410891-7fa0a344-39b2-4d12-a017-44dd53959ace.jpeg)
+![fan_bay_(1)_(2)_jx5y4Jm69c (4)_page-0002_2482x1755 (3)](https://user-images.githubusercontent.com/87942064/147410892-1c213e6a-9a9c-497d-a651-526f05694976.jpeg)
