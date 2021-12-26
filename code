@@ -1,0 +1,134 @@
+
+#include <Arduino_MKRIoTCarrier.h>
+MKRIoTCarrier carrier;
+#include "thingProperties.h"
+#define Fanpin 3
+#define disEchoPin 1
+#define disTrigPin 2
+#define dustPin A6
+
+#define leftMotorBackwardPin A3 //left wheel- Forward green
+#define leftMotorForwardPin A4 //left wheel- Backward yellow
+#define rightMotorForwardPin A1//right wheel- Forward blue
+#define rightMotorBackwardPin A5//right wheel- Backward red
+unsigned long duration;
+unsigned long starttime;
+unsigned long sampletime_ms = 3000; 
+unsigned long lowpulseoccupancy = 0;
+float ratio = 0;
+//float dustConcentration = 0;
+
+
+long soundDuration;
+int distance;
+
+void setup() {
+  // Initialize serial and wait for port to open:
+  Serial.begin(9600);
+  // This delay gives the chance to wait for a Serial Monitor without blocking if none is found
+  delay(1500); 
+  
+  
+  CARRIER_CASE = false;
+  carrier.begin();
+  
+  carrier.leds.fill(0,255,0); //red
+  carrier.leds.show();
+
+  pinMode(disTrigPin, OUTPUT);
+  pinMode(disEchoPin, INPUT);
+  
+  pinMode(Fanpin, OUTPUT);
+  digitalWrite(Fanpin, LOW);
+  
+  pinMode(rightMotorBackwardPin, OUTPUT);
+  pinMode(rightMotorForwardPin, OUTPUT);
+  pinMode(leftMotorBackwardPin, OUTPUT);
+  pinMode(leftMotorForwardPin, OUTPUT);
+  
+  pinMode(dustPin, INPUT);
+  
+
+  // Defined in thingProperties.h
+  initProperties();
+
+  // Connect to Arduino IoT Cloud
+  ArduinoCloud.begin(ArduinoIoTPreferredConnection);
+  
+  /*
+     The following function allows you to obtain more information
+     related to the state of network and IoT Cloud connection and errors
+     the higher number the more granular information you’ll get.
+     The default is 0 (only errors).
+     Maximum is 4
+ */
+  setDebugMessageLevel(2);
+  ArduinoCloud.printDebugInfo();
+}
+
+void loop() {
+  ArduinoCloud.update();
+  // Your code here 
+  duration = pulseIn(dustPin, LOW);
+  lowpulseoccupancy = lowpulseoccupancy + duration;
+  
+  if ((millis()-starttime) >= sampletime_ms) //if the sampel time = = 10s
+  {
+    ratio = lowpulseoccupancy/(sampletime_ms*10.0);  
+    dustConcentration = 1.1*pow(ratio,3)-3.8*pow(ratio,2)+520*ratio+0.62; 
+    Serial.print("Dust Concentration = ");
+    Serial.print(dustConcentration);
+    Serial.println(" pcs/0.01cf");
+    Serial.println("\n");
+    
+    while(dustConcentration >= 700){
+      
+      carrier.Relay2.open();
+      
+      carrier.leds.fill(0, 0, 255); //blue
+      carrier.leds.show();
+      
+      
+      digitalWrite(disTrigPin, LOW);
+      delayMicroseconds(2);
+      // Sets the trigPin HIGH (ACTIVE) for 10 microseconds
+      digitalWrite(disTrigPin, HIGH);
+      delayMicroseconds(10);
+      digitalWrite(disTrigPin, LOW);
+      // Reads the echoPin, returns the sound wave travel time in microseconds
+      soundDuration = pulseIn(disEchoPin, HIGH);
+      // Calculating the distance
+      distance = soundDuration * 0.034 / 2; // Speed of sound wave divided by 2 (go and back)
+      // Displays the distance on the Serial Monitor
+      Serial.print("Distance: ");
+      Serial.print(distance);
+      Serial.println(" cm");
+      
+      if(distance > 30){
+        
+        carrier.leds.fill(255,255,0);
+        carrier.leds.show();
+        
+        digitalWrite(leftMotorForwardPin, HIGH);
+        digitalWrite(leftMotorBackwardPin, LOW);
+        digitalWrite(rightMotorForwardPin, HIGH);
+        digitalWrite(rightMotorBackwardPin, LOW);
+      }else{
+        
+        carrier.leds.fill(255,0,0);
+        carrier.leds.show();
+        
+        Serial.println(" The car is turning");
+        digitalWrite(leftMotorForwardPin, LOW);
+        digitalWrite(leftMotorBackwardPin, HIGH);
+        digitalWrite(rightMotorForwardPin, HIGH);
+        digitalWrite(rightMotorBackwardPin, LOW);
+        delay(1500);
+        }
+        dustConcentration = 1.1*pow(ratio,3)-3.8*pow(ratio,2)+520*ratio+0.62; 
+    }
+    carrier.Relay2.close();
+    lowpulseoccupancy = 0;
+    starttime = millis();
+  }
+}
