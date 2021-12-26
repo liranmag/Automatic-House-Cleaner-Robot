@@ -2,6 +2,7 @@
 An indoor air quality robot with dust and distance sensors that operate automatically until the house is clean.
 
 Code schema:
+![The software_page-0001](https://user-images.githubusercontent.com/87942064/147410778-609fa234-6577-4c8f-9354-80ccdef915dc.jpg)
 
 Distance sensor - HC-SR04 schema to MKR:
 ![distance_schema_fOo0miuSvq](https://user-images.githubusercontent.com/87942064/147409024-c945e653-7dbe-44a4-8d47-6f03af556c20.jpeg)
