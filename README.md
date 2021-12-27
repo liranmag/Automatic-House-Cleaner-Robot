@@ -4,7 +4,7 @@ Some people, because of health problems or simply laziness, prefer to avoid hous
 
 ![robot](https://user-images.githubusercontent.com/87942064/147487383-343433e2-9b0b-4196-b9b3-9ff2cf7d1901.jpg)
 
-![had](https://user-images.githubusercontent.com/87942064/147493866-b57472f9-906d-4ae1-ac00-8849feb9960a.png)
+![had](https://user-images.githubusercontent.com/87942064/147493965-f80fb24e-93c3-4894-a5b3-1b78874d592a.png)
 ![hardware](https://user-images.githubusercontent.com/87942064/147493178-4b8512d9-5378-4734-b93e-f688820b3d73.png)
 
 ![soft](https://user-images.githubusercontent.com/87942064/147493678-347f5bd8-b3ac-4e3a-a703-ceffa1be5668.png)
