@@ -5,8 +5,8 @@ Some people, because of health problems or simply laziness, prefer to avoid hous
 ![robot](https://user-images.githubusercontent.com/87942064/147487383-343433e2-9b0b-4196-b9b3-9ff2cf7d1901.jpg)
 
 
-## Code schema:
 ![The software_page-0001](https://user-images.githubusercontent.com/87942064/147410778-609fa234-6577-4c8f-9354-80ccdef915dc.jpg)
+
 
 ## Sensors:
 
