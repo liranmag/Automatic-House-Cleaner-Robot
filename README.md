@@ -6,6 +6,8 @@ Some people, because of health problems or simply laziness, prefer to avoid hous
 
 
 ![hardware](https://user-images.githubusercontent.com/87942064/147493178-4b8512d9-5378-4734-b93e-f688820b3d73.png)
+
+![soft](https://user-images.githubusercontent.com/87942064/147493678-347f5bd8-b3ac-4e3a-a703-ceffa1be5668.png)
 ![software](https://user-images.githubusercontent.com/87942064/147493540-ab7e384b-ead6-4ef1-a387-0f0954dac577.png)
 
 
