@@ -6,7 +6,8 @@ Some people, because of health problems or simply laziness, prefer to avoid hous
 
 
 ![hardware](https://user-images.githubusercontent.com/87942064/147493178-4b8512d9-5378-4734-b93e-f688820b3d73.png)
-![The software_page-0001](https://user-images.githubusercontent.com/87942064/147410778-609fa234-6577-4c8f-9354-80ccdef915dc.jpg)
+![software](https://user-images.githubusercontent.com/87942064/147493540-ab7e384b-ead6-4ef1-a387-0f0954dac577.png)
+
 
 
 ## Sensors:
