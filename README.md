@@ -20,20 +20,22 @@ Some people, because of health problems or simply laziness, prefer to avoid hous
 ## Sensors:
 
 Distance sensor - HC-SR04 schema to MKR:
-![distance_schema_fOo0miuSvq_1280x905](https://user-images.githubusercontent.com/87942064/147411320-12d37294-c951-496b-af34-3adfb5424bec.jpeg)
 
+<img src="https://user-images.githubusercontent.com/87942064/147411320-12d37294-c951-496b-af34-3adfb5424bec.jpeg" width="400" height="300">
 
 Dust sensor PPD42NS schema to MKR and power source:
-![dust_sensor_ppd42ns_schema_to_mkr_and_power_source_3rAoNm35R0_920x905](https://user-images.githubusercontent.com/87942064/147411328-26e126e9-224e-495e-9fdc-95f8b8d08dc5.jpeg)
+
+<img src="https://user-images.githubusercontent.com/87942064/147411328-26e126e9-224e-495e-9fdc-95f8b8d08dc5.jpeg" width="400" height="300">
 
 
 Fan schema to Relay and to power source:
-![photo1628108023_uykBVrqmbQ](https://user-images.githubusercontent.com/87942064/147409031-317ed3df-aaf7-4d45-af1b-22651527c4cb.jpeg)
 
+<img src="https://user-images.githubusercontent.com/87942064/147409031-317ed3df-aaf7-4d45-af1b-22651527c4cb.jpeg" width="500" height="300">
 
 DC Motors and L298N schema to MKR and power source:
 
 ![photo1628164485_KsRQ12pU0s](https://user-images.githubusercontent.com/87942064/147409032-2d287bf0-02e7-4bd2-b667-b232c732c7cf.jpeg)
+
 
 ## Sketchs:
 
