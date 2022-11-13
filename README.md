@@ -2,17 +2,24 @@
 
 Some people, because of health problems or simply laziness, prefer to avoid household chores. For these types of cases and a few more, the robot vacuum cleaner has been created- An indoor air quality robot with dust and distance sensors that operate automatically until the house is clean. It will help us perform the types of tasks we will not be able or willing to perform. It will reach places where a broom simply cannot reach and save us effort. Dirt accumulates in a dedicated drawer that can be emptied easily and quickly. You will have the confidence to leave it alone because it turns on and off itself depending on the concentration of dust in the room.
 
-***Video_Demonstration***:
-
-https://user-images.githubusercontent.com/87942064/201528281-42f2918e-feb3-4582-9bcd-6b185145ec3d.mp4
-
 
 * [Hardware](#Hardware)
 * [Software](#Software)
 * [Sensors](#Sensors)
 * [Sketchs](#Sketchs)
 
+
+
+
 ![robot](https://user-images.githubusercontent.com/87942064/147487383-343433e2-9b0b-4196-b9b3-9ff2cf7d1901.jpg)
+
+***Video_Demonstration***:
+
+https://user-images.githubusercontent.com/87942064/201528281-42f2918e-feb3-4582-9bcd-6b185145ec3d.mp4
+
+
+
+
 
 ## Hardware:
 ![hardware](https://user-images.githubusercontent.com/87942064/147493178-4b8512d9-5378-4734-b93e-f688820b3d73.png)
