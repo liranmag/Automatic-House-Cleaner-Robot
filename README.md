@@ -5,7 +5,7 @@ Some people, because of health problems or simply laziness, prefer to avoid hous
 * [Hardware](#Hardware)
 * [Software](#Software)
 * [Sensors](#Sensors)
-
+* [Sketchs](#Sketchs)
 
 ![robot](https://user-images.githubusercontent.com/87942064/147487383-343433e2-9b0b-4196-b9b3-9ff2cf7d1901.jpg)
 
