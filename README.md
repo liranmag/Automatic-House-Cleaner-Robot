@@ -13,16 +13,10 @@ Some people, because of health problems or simply laziness, prefer to avoid hous
 
 ![robot](https://user-images.githubusercontent.com/87942064/147487383-343433e2-9b0b-4196-b9b3-9ff2cf7d1901.jpg)
 
-***Video_Demonstration***:
-
-https://user-images.githubusercontent.com/87942064/201528281-42f2918e-feb3-4582-9bcd-6b185145ec3d.mp4
-
-
-
 
 
 ## Hardware:
-![hardware](https://user-images.githubusercontent.com/87942064/147493178-4b8512d9-5378-4734-b93e-f688820b3d73.png)
+<img src="https://user-images.githubusercontent.com/87942064/147493178-4b8512d9-5378-4734-b93e-f688820b3d73.png" width="600" height="600">
 
 ## Software:
 ![software](https://user-images.githubusercontent.com/87942064/147493540-ab7e384b-ead6-4ef1-a387-0f0954dac577.png)
